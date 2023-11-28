@@ -3,6 +3,7 @@ import java.util.*;
 public class CalendarApp {
     // Map to store events by date (key = date, value = list of events)
     private final Map<String, List<String>> events;
+    /* The Final keyword is used to make the variable immutable (constant) after initialization.*/
 
     public CalendarApp() {
         events = new HashMap<>(); // HashMap is used for O(1) access to events
